@@ -1,0 +1,62 @@
+h2{
+	text-align: left;
+	color:yellow;
+	text-shadow: 5px 5px 10px rgbargba(255,255,255,0,5);
+}
+h1{
+    color:black;
+}
+p{
+	text-align: left;
+	color:grayscale;
+	margin: 0.75em auto;
+    font-size:1.3em;
+}
+//Boton
+
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border:none;
+}
+
+#boton{
+    background:#31384A;
+    color: #fff;
+    padding: 20px;
+}
+#boton:hover{
+    cursor: pointer;
+}
+@media (max-width: 480px){
+    form{
+        width: 100%;
+    }
+}
+
+	.pie{
+       
+            width:1030px;
+            height:40px;
+            background-color:#000000;  
+   }
+   .textopie{
+       
+            width:1040px;
+            height:10px;
+            float:left;
+            position:absolute;
+            color:#EAEAAE;
+            font-family:verdana;
+            font-size:10px;
+            padding-top:10px;
+             
+   }
+   
+
+
+

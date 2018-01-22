@@ -1,0 +1,47 @@
+body{
+	background-image: url(malibu.jpg);
+	margin:0;
+
+
+}
+form{
+	width: 458px;
+	margin:auto;
+	background:rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+h2{
+	color: yellow;
+	text-align:center;
+	margin:0;
+	font-size: 30px;
+	margin-bottom: 20px;
+
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border:none;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+#boton{
+	background:#31384A;
+	color: #fff;
+	padding: 20px;
+}
+#boton:hover{
+	cursor: pointer;
+}
+@media (max-width: 480px){
+	form{
+		width: 100%;
+	}
+}

@@ -1,0 +1,20 @@
+input{
+	display: block;
+	padding:8px;
+	width: 115px;
+	margin:10px 5px;
+	font-size: 18px;
+}
+
+input[type="submit"]{
+	background: linear-gradient(#FFDA63, #FFB948);
+	border:0;
+	color: brown;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 20px;
+	margin
+}
+input[type="submit"]:hover{
+	opacity: 1;
+}

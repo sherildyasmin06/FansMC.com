@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+body.contenedor-general{
+	font-family:Arial,Helvetica,sans serif;
+	font-size:14px;
+	margin:0 auto;
+	position: relative;
+	width: 1023px;
+}
+header, nav, section, article, footer{
+	display:block;
+}
+header{
+	height:80px;
+	position:relative;
+}
+
+#sombra-contenido{
+overflow:hidden;
+padding:10px 30px;
+width:970px;
+}
+section.articulos{
+width:630px;
+float:left;
+}
+aside{
+float:right;
+margin: 0 10px 0 0;
+width:320px;	
+}
+footer{
+	background:none repeatscroll00 #FAFAFA;
+	border-top:6px solid #CCCCCC;
+	clear:both;
+	padding:10px;
+	text-align:center;
+}
+
+
+

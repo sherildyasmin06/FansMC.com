@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tabla
+{
+	align-content: center;
+	width:100%;
+	margin:0px;
+	font-family:verdana;
+	color:#400040;
+	font-size:10px;
+	font-weight:bold;
+	background-color:#C0C0C0;
+}
+
+#fila
+{
+	background-color:#000000;
+	text-align:center;
+	color:#C0C0C0;
+	font-size:14px;
+}

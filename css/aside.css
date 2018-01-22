@@ -1,0 +1,65 @@
+/* CSS Document */
+aside h3{
+background-image:url(../imagenes/menu-bar.png);
+background:-webkit-gradient(linear, left top, left bottom, color-stop(2%,#fe7021),
+color-stop(21%, #fcb088),color-stop(41%,#fe7021),color-stop(65%,#e95617),color-stop(95%,#d0380c));/*Chrome,Safari4+*/
+border-radius:15px;
+-webkit-border-radius:15px;
+-moz-border-radius:15px;
+color:#fff;
+font-size:17px;
+font-weight:bold;
+margin:-15px 0 15px 0;
+padding:10px;
+text-align:center;
+}
+
+aside div.bloques-aside{
+padding:10px 0;
+border:1px solid #ccc;
+background:#fafafa;
+border-radius:10px;
+margin:25px 0;
+}
+
+aside li.publicidad{
+width:152px;
+display:block;
+float:left;
+background:none !important;
+margin:3px;
+}
+aside ul{
+overflow:hidden;
+}
+
+aside ul.categoria li a{
+text-decoration:none;
+font-size:16px;
+color:#666;
+}
+
+aside ul.categoria li a:hover{
+color:#DE4912;
+}
+
+aside ul.categoria li{
+margin:10px 30px;
+padding:0 10px 5px 0;
+border-bottom:1px dotted #555;
+}
+
+aside div.bloques-aside p.info{
+margin:10px;
+text-align:justify;
+}
+
+div.bloques-aside p.info img{
+width:100px;
+height:100px;
+float:left;
+margin:5px 10px;
+}
+
+
+

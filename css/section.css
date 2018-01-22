@@ -1,0 +1,85 @@
+/* CSS Document */
+
+article.post{
+margin:0;
+border-bottom:1px solid#ccc;
+padding-bottom:20px;
+border-top:1px solid #aaa;
+padding-top:20px;
+overflow:hidden;
+}
+
+article.post figure{
+float:left;
+margin:10px 10px 0 0;
+width:180px;
+}
+
+article.post a img{
+border:8px solid #ccc;
+}
+article.post a:hover img{
+border:8px solid #de4912;
+}
+
+article.post h2{
+font-family:Arial, Helvetica, sans-serif;
+}
+article.post h2 a {
+color:#888888;
+font-family:Arial,Helvetica,sans-serif;
+font-size:28px;
+font-weight:bold;
+margin: 5px;
+text-decoration:none;
+}
+
+article.post .meta{
+float:left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+article.post p.meta{
+display:block;
+background:#fafafa;
+margin:10px 0;
+padding:10px;
+border-radius:10px;
+box-shadow:1px 2px 2px #ccc;
+}
+
+article.post p.meta a{
+color:#888;
+text-decoration:none;
+font-style:italic;
+}
+
+article.post p.meta a:hover{
+color:#DE4912;
+}
+article.post p{
+float:left;
+width:410px;
+text-align:justify;
+}
+
+article.post div.leermas{
+float:left;
+margin:23px 1px 0;
+}
+article.post div.leermas a{
+color:white;
+text-decoration:none;
+font-style:italic;
+background:none repeat scroll 0 0 #ccc;
+border-radius: 10px 10px 10px 10px;
+margint:5px 0;
+padding:10px;
+}
+
+article.post div.leermas a:over{
+background:none repeat scroll 0 0 #DE4912;
+}
+
+ 

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+nav{
+border-radius:6px;
+-webkit-border-radius:6px;
+-moz-border-radius:6px;
+background-image:url(../imagenes/blackbar.png);
+background:-webkit-gradient(linear,left top,left bottom,color-stop(2%,#fe7021),
+color-stop(21%, #fcb088),color-stop(41%,#fe7021),color-stop(65%,#e95617),color-stop(95%,#d0380c));/*Chrome,Safari4+*/
+height:46px;
+margin:0;
+display:block;
+}
+
+nav li{
+	float:left;
+	display:block;
+	margin:5px;
+}
+nav li a{
+	color:#FFFFFF;
+	font-family:arial;
+	font-weight:bold;
+	line-height:37px;
+	padding:12px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+nav li a:hover{
+	background-color:#CD3A0C;
+	border:1px solid #ba1706;
+}
